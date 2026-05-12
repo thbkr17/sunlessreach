@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 581d72fb64094c240b59ce4324a24bfe, type: 3}
+  m_Name: CrawlerData
+  m_EditorClassIdentifier: Assembly-CSharp::SunlessReach.Data.EnemyData
+  enemyName: Crawler
+  maxHealth: 3
+  contactDamage: 1
+  moveSpeed: 3
+  detectionRange: 8
+  attackRange: 1.5
+  soulDropAmount: 1
+  moneyDropAmount: 5
+  dropChance: 1
+  knockbackForce: 5
+  knockbackDuration: 0.2
