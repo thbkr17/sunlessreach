@@ -22,6 +22,8 @@ namespace SunlessReach.UI
         bool _wired;
         bool _isOpen;
         bool _justOpened;
+
+        public bool IsOpen => _isOpen;
         InputAction _interactAction;
 
         class ItemView

@@ -106,7 +106,7 @@ namespace SunlessReach.Environment
 
             if (!_playerInRange) return;
 
-            if (_interactAction.WasPressedThisFrame() && shopUI != null)
+            if (_interactAction.WasPressedThisFrame() && shopUI != null && !shopUI.IsOpen)
             {
                 if (_promptGo != null) _promptGo.SetActive(false);
                 shopUI.OpenShop();
